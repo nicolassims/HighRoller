@@ -1,0 +1,28 @@
+p {
+  font-size: 1.4rem; }
+
+h1 {
+  font-size: 4.9rem; }
+
+h5 {
+  font-size: 2rem;
+  margin-left: -2.6%;
+  margin-bottom: 2.5%; }
+
+.adobeGaramondPro {
+  font-family: "Adobe Garamond Pro"; }
+
+.italics {
+  font-style: italic; }
+
+.media-object-section img {
+  padding-bottom: 5%;
+  margin-left: -2.6%; }
+
+#red {
+  color: red; }
+
+#helvetica {
+  font-family: Helvetica; }
+
+/*# sourceMappingURL=style.css.map */
