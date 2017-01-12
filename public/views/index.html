@@ -15,9 +15,36 @@ ASSIGNMENT: Create a Dice Roller
         <link href="../css/style.css" rel="stylesheet">
     </head>
     <body>
-
+        <br>
+        <div class="row">
+            <div class="medium-6 columns medium-text-center">Number of Dice</div>
+            <div class="medium-6 columns medium-text-center">Type of Dice</div>
+        </div>
+        <div class="row">
+            <div class="medium-6 columns medium-text-center">
+                <input type="radio" name="typeDice" class="typeDice" value="2">
+                <input type="radio" name="typeDice" class="typeDice" value="4">
+                <input type="radio" name="typeDice" class="typeDice" value="6">
+                <input type="radio" name="typeDice" class="typeDice" value="8">
+                <input type="radio" name="typeDice" class="typeDice" value="20">
+                <input type="radio" name="typeDice" class="typeDice" value="100">
+            </div>
+            <div class="medium-6 columns medium-text-center">
+                <input type="text" name="numberDice" placeholder="# of Dice?"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="medium-6 columns medium-text-center">
+                <span>d2</span>
+                <span>d4</span>
+                <span>d6</span>
+                <span>d8</span>
+                <span>d20</span>
+                <span>d100</span>
+            </div>
+        </div>
         <!-- SCRIPTS -->
-        <script src= "public/javascripts/main.js"></script>
+        <script src= "../javascripts/main.js"></script>
     </body>
 </html>
 
