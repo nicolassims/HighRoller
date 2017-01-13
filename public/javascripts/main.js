@@ -8,7 +8,13 @@
 
 class main {
     constructor() {
+        setValues.readyApp();
+    }
+}
 
+class setValues {
+    static readyApp() {
+        document.getElementById("defaultTypeDice").checked = true;
     }
 }
 

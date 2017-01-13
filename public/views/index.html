@@ -16,32 +16,42 @@ ASSIGNMENT: Create a Dice Roller
     </head>
     <body>
         <br>
-        <div class="row">
-            <div class="medium-6 columns medium-text-center">Number of Dice</div>
-            <div class="medium-6 columns medium-text-center">Type of Dice</div>
+        <div class="row hightop">
+            <h2 class="medium-6 columns medium-text-center">Type of Dice</h2>
+            <h2 class="medium-6 columns medium-text-center">Number of Dice</h2>
         </div>
-        <div class="row">
+        <div class="row hightop">
             <div class="medium-6 columns medium-text-center">
                 <input type="radio" name="typeDice" class="typeDice" value="2">
                 <input type="radio" name="typeDice" class="typeDice" value="4">
-                <input type="radio" name="typeDice" class="typeDice" value="6">
+                <input type="radio" name="typeDice" class="typeDice" id="defaultTypeDice" value="6">
                 <input type="radio" name="typeDice" class="typeDice" value="8">
                 <input type="radio" name="typeDice" class="typeDice" value="20">
+                <input type="radio" name="typeDice" class="typeDice" value="10">
                 <input type="radio" name="typeDice" class="typeDice" value="100">
             </div>
             <div class="medium-6 columns medium-text-center">
-                <input type="text" name="numberDice" placeholder="# of Dice?"></div>
+                <input type="text" id="numberDice" placeholder="Number of Dice?"></div>
             </div>
         </div>
         <div class="row">
-            <div class="medium-6 columns medium-text-center">
+            <div class="medium-6 columns medium-text-center" id="spanbox">
                 <span>d2</span>
                 <span>d4</span>
                 <span>d6</span>
                 <span>d8</span>
+                <span>d10</span>
                 <span>d20</span>
                 <span>d100</span>
             </div>
+        </div>
+        <div class="row hightop">
+            <div class="medium-12 success button hollow columns medium-text-center">
+                Roll 'em up and knock 'em down!
+            </div>
+        </div>
+        <div class="row hightop">
+            <input type="text" name="diceResults" placeholder="Results will appear here"></div>
         </div>
         <!-- SCRIPTS -->
         <script src= "../javascripts/main.js"></script>
