@@ -22,13 +22,15 @@ ASSIGNMENT: Create a Dice Roller
         </div>
         <div class="row hightop">
             <div class="medium-6 columns medium-text-center">
-                <input type="radio" name="typeDice" class="typeDice" value="2">
-                <input type="radio" name="typeDice" class="typeDice" value="4">
-                <input type="radio" name="typeDice" class="typeDice" id="defaultTypeDice" value="6">
-                <input type="radio" name="typeDice" class="typeDice" value="8">
-                <input type="radio" name="typeDice" class="typeDice" value="20">
-                <input type="radio" name="typeDice" class="typeDice" value="10">
-                <input type="radio" name="typeDice" class="typeDice" value="100">
+                <form id="theForm">
+                    <input type="radio" name="typeDice" class="typeDice" value="2">
+                    <input type="radio" name="typeDice" class="typeDice" value="4">
+                    <input type="radio" name="typeDice" class="typeDice" id="defaultTypeDice" value="6">
+                    <input type="radio" name="typeDice" class="typeDice" value="8">
+                    <input type="radio" name="typeDice" class="typeDice" value="10">
+                    <input type="radio" name="typeDice" class="typeDice" value="20">
+                    <input type="radio" name="typeDice" class="typeDice" value="100">
+                </form>
             </div>
             <div class="medium-6 columns medium-text-center">
                 <input type="text" id="numberDice" placeholder="Number of Dice?"></div>
@@ -46,7 +48,7 @@ ASSIGNMENT: Create a Dice Roller
             </div>
         </div>
         <div class="row hightop">
-            <div class="medium-12 success button hollow columns medium-text-center">
+            <div class="medium-12 success button hollow columns medium-text-center" id="button">
                 Roll 'em up and knock 'em down!
             </div>
         </div>
