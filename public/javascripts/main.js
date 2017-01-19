@@ -28,7 +28,6 @@ class performFunction {
         let results = [];
         let result = 0;
         document.getElementById("button").addEventListener("click", () => {
-
             document.getElementById("diceResults").value = '';
             for (let i = 0; i < ANSWERS.length; i++) {
                 if (ANSWERS[i].checked == true) {
@@ -38,7 +37,6 @@ class performFunction {
                     if (SECONDANSWERS[0].checked == true) {
                         for (let i = 0; i < results.length; i++) {
                             result += results[i];
-                            console.log(result);
                         }
                         document.getElementById("diceResults").value = String(result);
                         result = 0;
